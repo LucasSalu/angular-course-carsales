@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
 
   doLogin(): void {
     this.loginService.doLogin(this.requestLogin).subscribe((data) => {
-      console.log(data)
+      console.log(data);
     },
       error => {
         console.log(error);
